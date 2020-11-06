@@ -1,6 +1,11 @@
 
 public class MyClass {
     public static void main(String args[]) {
+        
+    printfood();
+        
+}
+public static void printfood(){
    
    //Printing the favorite foods start
    
@@ -12,6 +17,7 @@ public class MyClass {
    System.out.println("Andrew's favorite food is pizza");
    
    //Printing the favorite foods end
+   
    
 }
 }
