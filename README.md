@@ -9,6 +9,7 @@
 <p> gaven is also awesome </p>
 <p>Rahi is also awesome</p>
 <p>Charlie is the most awesomest</p>
+<p>Rahi's favorite food are eggs</p>
 
 <p>gaven's favorite food is steak</p>
 
