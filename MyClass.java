@@ -20,9 +20,12 @@ public class MyClass {
       }
       System.out.print("\n");
 }
-public static void stump(int width, int height){
-    for (i=0; i <= width; i++){
-        System.out.print("*");     //TODO
+public static void stump(int width, int height){ //Varibles can be changed
+    for (i=0; i < width/2; i++){
+        System.out.print(" "); //TODO finish
+    }
+    for (i=0; i <= width/3; i++){
+        System.out.print("*");
     }
 }
 }
