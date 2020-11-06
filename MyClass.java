@@ -3,6 +3,7 @@ import java.util.Scanner; //imports scanner class
 public class MyClass {
    
   public static void main(String args[]) {
+    intro();
     getRows();
   }
 
