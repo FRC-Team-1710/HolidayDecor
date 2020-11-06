@@ -7,13 +7,21 @@ public class MyClass {
         System.out.println("How many times?");
     
         int times = myObj.nextInt();
-    
+        int trunkNumber;
+        
+        if((1+2*times)%3 >= 2){
+            trunkNumber = (1+2*times)/3 + 1;
+        }else{
+            trunkNumber = (1+2*times)/3;
+        }
+        
         for(int i=0; i<times; i++){
             row(times-i,1+2*i);
             System.out.print("\n");
         }
-        for(int i=0; i<times/3; i++){
-            row((2*(times-1)/2), 1+2*times-2*((2*(times-1)/2)));
+        for(int i=0; i<times/4; i++){
+            //row((2*(times-1)/2), 1+2*times-2*((2*(times-1)/2)));
+            row(trunkNumber, (1+2*times) - 2*trunkNumber);
             System.out.print("\n");
         }
     }
