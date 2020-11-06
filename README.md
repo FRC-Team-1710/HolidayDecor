@@ -12,5 +12,5 @@
 
 <p>gaven's favorite food is steak</p>
 
-<p style="color:red">Charlie's favorite food is ice cream!</p>
+<p>Charlie's favorite food is ice cream!</p>
 
