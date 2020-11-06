@@ -1,12 +1,20 @@
-import java.util.Scanner;  // Import the Scanner class
+import java.util.Scanner; //imports scanner class
 
 public class MyClass {
-    public static void main(String args[]) {
-      
-    
-    }
-    public static void intro(){
-        System.out.println("Christmas Trees!\nYou will be prompted to enter the number of rows to comprise the height of the tree.\nThe program will then calculate how exactly to make the top half, and then the stump.");
-    }
+   
+  public static void main(String args[]) {
+    getRows();
+  }
+
+  public static void intro(){
+    System.out.println("Christmas Trees!\nYou will be prompted to enter the number of rows to comprise the height of the tree.\nThe program will then calculate how exactly to make the top half, and then the stump.");
+  }
+
+  public static int getRows() {
+    Scanner rowScanner = new Scanner(System.in);
+    System.out.println("How many rows do you want in the tree height? ==>");
+    int rows = rowScanner.nextInt();
+    return rows;
+  }
 }
-     
+
