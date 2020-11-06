@@ -1,15 +1,24 @@
 
+import java.util.Scanner; //imports scanner class
+
+
 public class MyClass {
+   
     public static void main(String args[]) {
-<<<<<<< HEAD
-        
+
+    getRows(); 
     printfood();
         
 }
-public static void printfood(){
-=======
+   public static int getRows() {
+    Scanner rowScanner = new Scanner(System.in);
+    System.out.println("How many rows do you want in the tree height? ==>");
+    int rows = rowScanner.nextInt();
+    return rows;
 
->>>>>>> 1db43ca06a7d1b2fe13498165c73465f25bb48ce
+    
+    }
+public static void printfood(){
    
    //Printing the favorite foods start
    
@@ -24,5 +33,6 @@ public static void printfood(){
    
    
 }
+  
 }
-     
+
