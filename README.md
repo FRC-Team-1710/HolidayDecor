@@ -1,3 +1,4 @@
+
 <h1> Christmas Trees <h1>
 <h2> How it works <h2>
 <p> takes user input for number of rows <p>
