@@ -1,6 +1,7 @@
 
 public class MyClass {
     public static void main(String args[]) {
+
    
    //Printing the favorite foods start
    
