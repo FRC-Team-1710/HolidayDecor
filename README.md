@@ -4,4 +4,4 @@
 <p> takes user input for number of rows <p>
 <p> prints rows out <p>
 <p> prints trunk out <p>
-<b> cooper is awesome </b>
+<b> cooper and andrew are awesome </b>
