@@ -1,11 +1,15 @@
 
 public class MyClass {
     public static void main(String args[]) {
+<<<<<<< HEAD
         
     printfood();
         
 }
 public static void printfood(){
+=======
+
+>>>>>>> 1db43ca06a7d1b2fe13498165c73465f25bb48ce
    
    //Printing the favorite foods start
    
