@@ -1,7 +1,10 @@
 import java.util.Scanner; //imports scanner class
 
 public class MyClass {
+
+   
     public static void main(String args[]) {
+<<<<<<< HEAD
      Scanner rowScanner = new Scanner(System.in);
     System.out.println("How many rows do you want in the tree height? ==>");
     int rows = rowScanner.nextInt();
@@ -14,6 +17,13 @@ int i = 0;
     for(i = 0; i < rows/4; i++){
     stump(rows * 2 - 1,rows);
     }
+=======
+
+    intro();
+    getRows(); 
+    row();
+    stump();
+>>>>>>> bee68808de44320c3737a7c9146f8c7fa0194c59
     printfood();
         
 }
@@ -23,7 +33,24 @@ int i = 0;
     System.out.println("Christmas Trees!\nYou will be prompted to enter the number of rows to comprise the height of the tree.\nThe program will then calculate how exactly to make the top half, and then the stump.");
   }
 
+<<<<<<< HEAD
   
+=======
+  public static int getRows() {
+
+
+    Scanner rowScanner = new Scanner(System.in);
+    System.out.println("How many rows do you want in the tree height? ==>");
+    int rows = rowScanner.nextInt();
+    int i = 0;
+	for (i = 0; i < rows ; i++){
+		row (rows - i, i);
+    }
+    return rows;
+
+   }
+    
+>>>>>>> bee68808de44320c3737a7c9146f8c7fa0194c59
     
     public static void printfood(){
    
@@ -46,11 +73,19 @@ int i = 0;
  for(i = 0; i < stars; i++){
               System.out.print("*");
           }
+<<<<<<< HEAD
+=======
+          System.out.print("*");
+          for(i = 0; i < stars; i++){
+              System.out.print("*");
+          }
+>>>>>>> bee68808de44320c3737a7c9146f8c7fa0194c59
           System.out.print("\n");
     }
     
     
   public static void stump(int width, int rows){ //Varibles can be changed; Need varible for width
+<<<<<<< HEAD
   int i = 0;
 for(i = 0; i < Math.round(rows/4); i++){  //I think this is correct but it needs to be tested
     
@@ -66,3 +101,17 @@ System.out.print(" ");
 }
  
          
+=======
+for(i=0; i < rows/4; i++){  //I think this is correct but it needs to be tested
+    
+    for (i=0; i < width/3; i++){
+System.out.print(" ");
+    }
+    for (i=0; i <= width/3; i++){
+        System.out.print("*");
+    }
+}
+}
+}
+
+>>>>>>> bee68808de44320c3737a7c9146f8c7fa0194c59
