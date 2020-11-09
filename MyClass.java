@@ -14,3 +14,25 @@ public class MyClass {
   }
 }
 
+
+
+	int i = 0;
+	for (i = 0; i < rows ; i++){
+	row (rows - i, i);
+    }
+
+public static void row(int spaces, int stars){
+          int i = 0;
+          for(i = 0; i < spaces; i++){
+              System.out.print(" ");
+          }
+          for(i = 0; i < stars; i++){
+              System.out.print("*");
+          }
+          System.out.print("*");
+          for(i = 0; i < stars; i++){
+              System.out.print("*");
+          }
+          System.out.print("\n");
+    }
+
