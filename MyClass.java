@@ -7,16 +7,18 @@ public class MyClass {
 		
 		int trunkNumber;
         
-        if((1+2*times)%3 >= 2){
-            trunkNumber = (1+2*times)/3 + 1;
-        }else{
-            trunkNumber = (1+2*times)/3;
-        }
-        
-        for(int i=0; i<times; i++){
-            row(times-i,1+2*i);
-        }
-        stump((1+2*times), times);
+		if((1+2*times)%3 >= 2){
+		    trunkNumber = (1+2*times)/3 + 1;
+		}else{
+		    trunkNumber = (1+2*times)/3;
+		}
+
+		for(int i=0; i<times; i++){
+		    row(times-i,1+2*i);
+		}
+		stump((1+2*times), times);
+		
+		printfood();
 	}    
 
 
