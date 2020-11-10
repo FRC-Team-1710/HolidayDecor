@@ -11,7 +11,7 @@ Install https://marketplace.visualstudio.com/items?itemName=shengchen.vscode-che
 On files you wish to style check.
 
 1. Ctrl+Shift+P (Action quick switcher)
-2. Checkstyle: Check COde with Checkstyle)
+2. Select the "Checkstyle: Check Code with Checkstyle" option.
 
 # Errors
 
