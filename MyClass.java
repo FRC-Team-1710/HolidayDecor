@@ -8,7 +8,7 @@ public class MyClass {
     System.out.println("How many rows do you want in the tree height? ==>");
     int rows = rowScanner.nextInt();
     
-int i = 0;
+    int i = 0;
     intro();
     for(i = 0; i < rows; i++){
     row(rows - i, i * 2 + 1);
@@ -58,14 +58,14 @@ public static void row(int spaces, int stars){
          System.out.print("\n");
     }
   public static void stump(int width, int rows){ 
-  int i = 0;
-for(i = 0; i < Math.round(rows/4); i++){  
+    int i = 0;
+    for(i = 0; i < Math.round(rows/4); i++){  
     
     for (i=0; i < Math.round(width/3) + 1; i++){
-System.out.print(" ");
+      System.out.print(" ");
     }
     for (i=0; i <= Math.round(width/3) - 1; i++){
-        System.out.print("*");
+      System.out.print("*");
     }
     System.out.print("\n");
 }
